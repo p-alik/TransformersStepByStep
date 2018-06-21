@@ -1,0 +1,30 @@
+name: TransformersStepByStep
+version: '0.1.1.0'
+synopsis: Tutorial on monad transformers.
+description: ! 'In this tutorial, we describe how to use monad
+
+  transformers in order to incrementally add
+
+    functionality to Haskell programs.  It is not a
+
+      paper about implementing transformers, but about
+
+        using them to write elegant, clean and powerful
+
+          programs in Haskell.'
+category: Development
+author: Martin Grabmueller
+maintainer: martin@grabmueller.de
+license: BSD3
+github: mgrabmueller/TransformersStepByStep
+extra-source-files:
+  - bibliography.bib
+  - ChangeLog.md
+  - README.md
+dependencies:
+  - base >=4.5 && <4.9
+  - mtl >=2.1 && <2.3
+  - containers >=0.4 && <0.6
+executables:
+    TransformersStepByStep:
+          main: Transformers.lhs
